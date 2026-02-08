@@ -1,13 +1,39 @@
-# Assistant sessions
-sessions/
+# Sessions folder placeholder
+sessions/.gitkeep
 
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Environments
 .env
-.venv
+.venv/
 env/
 venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+profile_default/
+.ipython/
+
+# VS Code / PyCharm
+.vscode/
+.idea/
